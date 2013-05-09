@@ -87,10 +87,10 @@ fg=gray</panel_attributes>
       <x>820</x>
       <y>600</y>
       <w>50</w>
-      <h>320</h>
+      <h>310</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-&gt;</panel_attributes>
-    <additional_attributes>30;30;30;300</additional_attributes>
+    <additional_attributes>30;30;30;290</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
@@ -356,9 +356,9 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>200</x>
+      <x>190</x>
       <y>560</y>
-      <w>130</w>
+      <w>140</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>LevelsListDescriptor</panel_attributes>
@@ -400,9 +400,9 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>200</x>
+      <x>190</x>
       <y>480</y>
-      <w>130</w>
+      <w>140</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>MenuDescriptor</panel_attributes>
@@ -513,11 +513,11 @@ fg=gray</panel_attributes>
     <coordinates>
       <x>280</x>
       <y>560</y>
-      <w>570</w>
-      <h>370</h>
+      <w>480</w>
+      <h>360</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
-    <additional_attributes>30;30;30;350;550;350</additional_attributes>
+    <additional_attributes>30;30;30;340;460;340</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
@@ -784,8 +784,8 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>830</x>
-      <y>900</y>
+      <x>740</x>
+      <y>890</y>
       <w>130</w>
       <h>30</h>
     </coordinates>
