@@ -2,22 +2,44 @@
 <diagram program="umlet" version="12.0">
   <zoom_level>10</zoom_level>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>790</x>
-      <y>380</y>
-      <w>50</w>
-      <h>110</h>
+      <x>1220</x>
+      <y>780</y>
+      <w>100</w>
+      <h>30</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
-m2=   *</panel_attributes>
-    <additional_attributes>30;30;30;90</additional_attributes>
+    <panel_attributes>Block</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1030</x>
+      <y>420</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>HUD
+fg=gray</panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>300</x>
-      <y>540</y>
+      <x>1020</x>
+      <y>690</y>
+      <w>50</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
+    <additional_attributes>30;170;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>190</x>
+      <y>510</y>
       <w>130</w>
       <h>50</h>
     </coordinates>
@@ -25,33 +47,10 @@ m2=   *</panel_attributes>
     <additional_attributes>110;30;30;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>250</x>
-      <y>180</y>
-      <w>180</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
-fg=gray</panel_attributes>
-    <additional_attributes>150;30;30;30;30;70;160;70</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>760</x>
-      <y>470</y>
-      <w>140</w>
-      <h>150</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>30;30;30;70;120;70;120;130</additional_attributes>
-  </element>
-  <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>740</x>
-      <y>470</y>
+      <x>630</x>
+      <y>440</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -59,55 +58,44 @@ fg=gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>400</x>
-      <y>200</y>
-      <w>140</w>
-      <h>30</h>
+      <x>770</x>
+      <y>400</y>
+      <w>280</w>
+      <h>190</h>
     </coordinates>
-    <panel_attributes>ResourcesManager</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
+    <additional_attributes>30;170;30;110;220;110;220;30;260;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>610</x>
-      <y>100</y>
-      <w>170</w>
+      <x>1020</x>
+      <y>690</y>
+      <w>140</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
+    <additional_attributes>30;170;30;60;120;60;120;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>500</x>
+      <y>70</y>
+      <w>190</w>
       <h>390</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-&gt;
 fg=gray</panel_attributes>
-    <additional_attributes>150;370;150;250;30;250;30;30</additional_attributes>
+    <additional_attributes>170;370;170;250;30;250;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>820</x>
-      <y>600</y>
-      <w>50</w>
-      <h>310</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-&gt;</panel_attributes>
-    <additional_attributes>30;30;30;290</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>410</x>
-      <y>520</y>
-      <w>160</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>VersusConnectScene</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>510</x>
-      <y>100</y>
+      <x>400</x>
+      <y>70</y>
       <w>130</w>
       <h>170</h>
     </coordinates>
@@ -117,19 +105,8 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>540</x>
-      <y>420</y>
-      <w>220</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>200;70;60;70;60;30;30;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>890</x>
-      <y>350</y>
+      <x>780</x>
+      <y>320</y>
       <w>122</w>
       <h>140</h>
     </coordinates>
@@ -140,8 +117,8 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>330</x>
-      <y>320</y>
+      <x>220</x>
+      <y>290</y>
       <w>150</w>
       <h>80</h>
     </coordinates>
@@ -151,8 +128,19 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>810</x>
-      <y>440</y>
+      <x>960</x>
+      <y>530</y>
+      <w>230</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
+    <additional_attributes>30;30;170;30;170;60;210;60</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>700</x>
+      <y>410</y>
       <w>150</w>
       <h>70</h>
     </coordinates>
@@ -161,21 +149,10 @@ fg=gray</panel_attributes>
     <additional_attributes>30;50;130;50</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>830</x>
-      <y>600</y>
-      <w>100</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>/GameScene/</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>600</x>
-      <y>600</y>
+      <x>490</x>
+      <y>570</y>
       <w>120</w>
       <h>220</h>
     </coordinates>
@@ -185,53 +162,31 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>540</x>
-      <y>460</y>
-      <w>220</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>200;30;60;30;60;70;30;70</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>410</x>
-      <y>60</y>
-      <w>130</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>BaseGameActivity
-fg=gray</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>410</x>
+      <x>770</x>
       <y>480</y>
-      <w>160</w>
-      <h>30</h>
+      <w>280</w>
+      <h>110</h>
     </coordinates>
-    <panel_attributes>ArcadeScoresScene</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
+    <additional_attributes>30;90;30;30;260;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>540</x>
-      <y>460</y>
-      <w>220</w>
-      <h>130</h>
+      <x>730</x>
+      <y>820</y>
+      <w>280</w>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>200;30;60;30;60;110;30;110</additional_attributes>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;conform to&gt;&gt;</panel_attributes>
+    <additional_attributes>30;50;260;50</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>410</x>
-      <y>160</y>
+      <x>300</x>
+      <y>130</y>
       <w>130</w>
       <h>30</h>
     </coordinates>
@@ -242,8 +197,620 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
+      <x>1070</x>
+      <y>840</y>
+      <w>170</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;150;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>740</x>
+      <y>570</y>
+      <w>120</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;30;160;100;160</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>300</x>
+      <y>410</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>SplashScene</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1030</x>
+      <y>500</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>ParallaxBackground 
+fg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>80</x>
+      <y>530</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>LevelsListDescriptor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1290</x>
+      <y>840</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;80;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>430</x>
+      <y>430</y>
+      <w>220</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>200;30;60;30;60;150;30;150</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>740</x>
+      <y>570</y>
+      <w>120</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;30;120;100;120</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>80</x>
+      <y>450</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>ScoresDescriptor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>580</x>
+      <y>860</y>
+      <w>122</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+      &lt;&lt;use&gt;&gt;</panel_attributes>
+    <additional_attributes>30;70;70;70;70;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>570</x>
+      <y>350</y>
+      <w>90</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+m2= *</panel_attributes>
+    <additional_attributes>70;90;70;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>430</x>
+      <y>430</y>
+      <w>220</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>200;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>400</x>
+      <y>70</y>
+      <w>130</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
+    <additional_attributes>110;30;110;190;30;190</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>190</x>
+      <y>430</y>
+      <w>130</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
+    <additional_attributes>110;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>380</x>
+      <y>680</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>ArcadeModeScene</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1220</x>
+      <y>820</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Ennemy</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1120</x>
+      <y>690</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Body
+fg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>170</x>
+      <y>530</y>
+      <w>480</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+m2=*</panel_attributes>
+    <additional_attributes>30;30;30;340;460;340</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1070</x>
+      <y>800</y>
+      <w>170</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;70;100;70;100;30;150;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1030</x>
+      <y>460</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>PhysicsWorld 
+fg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>430</x>
+      <y>350</y>
+      <w>220</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>200;110;60;110;60;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>400</x>
+      <y>70</y>
+      <w>130</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
+    <additional_attributes>110;30;110;230;30;230</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>690</x>
+      <y>350</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>ScenesManager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>380</x>
+      <y>640</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>MainMenuScene</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>490</x>
+      <y>570</y>
+      <w>120</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100;30;100;120;30;120</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>140</x>
+      <y>150</y>
+      <w>170</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+fg=gray</panel_attributes>
+    <additional_attributes>150;30;30;30;30;110;100;110</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>300</x>
+      <y>210</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Engine
+fg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>400</x>
+      <y>160</y>
+      <w>290</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+fg=gray</panel_attributes>
+    <additional_attributes>270;280;270;160;130;160;130;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>520</x>
+      <y>370</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Sprite
+fg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>330</x>
+      <y>290</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>AudioManager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1170</x>
+      <y>540</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>AnimatedSprite
+fg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>560</x>
+      <y>440</y>
+      <w>140</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120;30;120;70;30;70;30;130</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>830</x>
+      <y>440</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Enumeration&gt;&gt;
+SceneType</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>120</x>
+      <y>340</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>ModPlayer
+fg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>740</x>
+      <y>570</y>
+      <w>120</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;30;80;100;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>490</x>
+      <y>570</y>
+      <w>120</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100;30;100;160;30;160</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>840</x>
+      <y>640</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>ArcadeGameScene</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
       <x>510</x>
-      <y>100</y>
+      <y>810</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>MenuDescriptor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>680</x>
+      <y>350</y>
+      <w>50</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+m2=   *</panel_attributes>
+    <additional_attributes>30;30;30;90</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>790</x>
+      <y>560</y>
+      <w>240</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+m2=   *</panel_attributes>
+    <additional_attributes>30;30;220;30;220;300</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>650</x>
+      <y>440</y>
+      <w>140</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;30;70;120;70;120;130</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>140</x>
+      <y>150</y>
+      <w>180</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+fg=gray</panel_attributes>
+    <additional_attributes>150;30;30;30;30;70;160;70</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1170</x>
+      <y>580</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Body
+fg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>290</x>
+      <y>170</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>ResourcesManager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>300</x>
+      <y>490</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>VersusConnectScene</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>710</x>
+      <y>570</y>
+      <w>50</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;</panel_attributes>
+    <additional_attributes>30;30;30;290</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>890</x>
+      <y>540</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Player</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>430</x>
+      <y>390</y>
+      <w>220</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>200;70;60;70;60;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>770</x>
+      <y>440</y>
+      <w>280</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
+    <additional_attributes>30;130;30;70;220;70;220;30;260;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>720</x>
+      <y>570</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>/GameScene/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>430</x>
+      <y>430</y>
+      <w>220</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>200;30;60;30;60;70;30;70</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>300</x>
+      <y>30</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>BaseGameActivity
+fg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>430</x>
+      <y>430</y>
+      <w>220</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>200;30;60;30;60;110;30;110</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>300</x>
+      <y>450</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>ArcadeScoresScene</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>400</x>
+      <y>70</y>
       <w>130</w>
       <h>130</h>
     </coordinates>
@@ -253,8 +820,8 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>700</x>
-      <y>600</y>
+      <x>590</x>
+      <y>570</y>
       <w>50</w>
       <h>260</h>
     </coordinates>
@@ -264,8 +831,8 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>250</x>
-      <y>180</y>
+      <x>140</x>
+      <y>150</y>
       <w>210</w>
       <h>180</h>
     </coordinates>
@@ -276,20 +843,8 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>510</x>
-      <y>270</y>
-      <w>270</w>
-      <h>220</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
-fg=gray</panel_attributes>
-    <additional_attributes>250;200;250;80;130;80;130;30;30;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>630</x>
-      <y>100</y>
+      <x>520</x>
+      <y>70</y>
       <w>210</w>
       <h>300</h>
     </coordinates>
@@ -300,8 +855,20 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>510</x>
-      <y>100</y>
+      <x>400</x>
+      <y>240</y>
+      <w>290</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+fg=gray</panel_attributes>
+    <additional_attributes>270;200;270;80;130;80;130;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>400</x>
+      <y>70</y>
       <w>130</w>
       <h>90</h>
     </coordinates>
@@ -309,10 +876,21 @@ fg=gray</panel_attributes>
     <additional_attributes>110;30;110;70;30;70</additional_attributes>
   </element>
   <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1220</x>
+      <y>860</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Pickable</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>250</x>
-      <y>140</y>
+      <x>140</x>
+      <y>110</y>
       <w>180</w>
       <h>90</h>
     </coordinates>
@@ -323,30 +901,8 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>410</x>
-      <y>440</y>
-      <w>160</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>SplashScene</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>850</x>
-      <y>600</y>
-      <w>120</w>
-      <h>180</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>30;30;30;160;100;160</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>950</x>
-      <y>750</y>
+      <x>840</x>
+      <y>720</y>
       <w>140</w>
       <h>30</h>
     </coordinates>
@@ -356,19 +912,8 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>190</x>
-      <y>560</y>
-      <w>140</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>LevelsListDescriptor</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>650</x>
-      <y>600</y>
+      <x>540</x>
+      <y>570</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -376,43 +921,10 @@ fg=gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>540</x>
-      <y>460</y>
-      <w>220</w>
-      <h>170</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>200;30;60;30;60;150;30;150</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>850</x>
-      <y>600</y>
-      <w>120</w>
-      <h>140</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>30;30;30;120;100;120</additional_attributes>
-  </element>
-  <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>190</x>
-      <y>480</y>
-      <w>140</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>MenuDescriptor</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>600</x>
-      <y>100</y>
+      <x>490</x>
+      <y>70</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -422,8 +934,8 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>490</x>
-      <y>790</y>
+      <x>380</x>
+      <y>760</y>
       <w>140</w>
       <h>30</h>
     </coordinates>
@@ -431,54 +943,21 @@ fg=gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>300</x>
-      <y>460</y>
-      <w>130</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
-    <additional_attributes>110;30;30;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>510</x>
-      <y>100</y>
-      <w>130</w>
-      <h>210</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
-    <additional_attributes>110;30;110;190;30;190</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>540</x>
-      <y>460</y>
-      <w>220</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>200;30;30;30</additional_attributes>
-  </element>
-  <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>490</x>
-      <y>710</y>
-      <w>140</w>
+      <x>990</x>
+      <y>860</y>
+      <w>110</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>ArcadeModeScene</panel_attributes>
+    <panel_attributes>/LevelElement/</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>600</x>
-      <y>600</y>
+      <x>490</x>
+      <y>570</y>
       <w>120</w>
       <h>100</h>
     </coordinates>
@@ -488,8 +967,8 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>950</x>
-      <y>710</y>
+      <x>840</x>
+      <y>680</y>
       <w>140</w>
       <h>30</h>
     </coordinates>
@@ -499,31 +978,20 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>510</x>
-      <y>150</y>
-      <w>270</w>
+      <x>400</x>
+      <y>120</y>
+      <w>290</w>
       <h>340</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-&gt;
 fg=gray</panel_attributes>
-    <additional_attributes>250;320;250;200;130;200;130;30;30;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>280</x>
-      <y>560</y>
-      <w>480</w>
-      <h>360</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
-    <additional_attributes>30;30;30;340;460;340</additional_attributes>
+    <additional_attributes>270;320;270;200;130;200;130;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>410</x>
-      <y>600</y>
+      <x>300</x>
+      <y>570</y>
       <w>160</w>
       <h>30</h>
     </coordinates>
@@ -533,41 +1001,30 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>540</x>
-      <y>380</y>
-      <w>220</w>
-      <h>130</h>
+      <x>960</x>
+      <y>520</y>
+      <w>230</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>200;110;60;110;60;30;30;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>800</x>
-      <y>380</y>
-      <w>120</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>ScenesManager</panel_attributes>
-    <additional_attributes/>
+    <additional_attributes>210;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>510</x>
-      <y>100</y>
-      <w>130</w>
-      <h>250</h>
+      <x>790</x>
+      <y>520</y>
+      <w>120</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
-    <additional_attributes>110;30;110;230;30;230</additional_attributes>
+    <additional_attributes>30;70;70;70;70;30;100;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>410</x>
-      <y>560</y>
+      <x>300</x>
+      <y>530</y>
       <w>160</w>
       <h>30</h>
     </coordinates>
@@ -577,19 +1034,20 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>490</x>
-      <y>670</y>
-      <w>140</w>
+      <x>460</x>
+      <y>920</y>
+      <w>150</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>MainMenuScene</panel_attributes>
+    <panel_attributes>SimpleLevelLoader
+fg=gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
-      <y>60</y>
+      <x>330</x>
+      <y>30</y>
       <w>180</w>
       <h>70</h>
     </coordinates>
@@ -599,89 +1057,31 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>600</x>
-      <y>600</y>
-      <w>120</w>
-      <h>140</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>100;30;100;120;30;120</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>250</x>
-      <y>180</y>
+      <x>1070</x>
+      <y>760</y>
       <w>170</w>
       <h>130</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
-fg=gray</panel_attributes>
-    <additional_attributes>150;30;30;30;30;110;100;110</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>510</x>
-      <y>190</y>
-      <w>270</w>
-      <h>300</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
-fg=gray</panel_attributes>
-    <additional_attributes>250;280;250;160;130;160;130;30;30;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>410</x>
-      <y>240</y>
-      <w>130</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>Engine
-fg=gray</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>440</x>
-      <y>320</y>
-      <w>100</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>AudioManager</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>670</x>
-      <y>470</y>
-      <w>140</w>
-      <h>150</h>
-    </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>120;30;120;70;30;70;30;130</additional_attributes>
+    <additional_attributes>30;110;100;110;100;30;150;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>510</x>
-      <y>230</y>
-      <w>270</w>
+      <x>400</x>
+      <y>200</y>
+      <w>290</w>
       <h>260</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-&gt;
 fg=gray</panel_attributes>
-    <additional_attributes>250;240;250;120;130;120;130;30;30;30</additional_attributes>
+    <additional_attributes>270;240;270;120;130;120;130;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>250</x>
-      <y>90</y>
+      <x>140</x>
+      <y>60</y>
       <w>370</w>
       <h>140</h>
     </coordinates>
@@ -692,8 +1092,8 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>410</x>
-      <y>400</y>
+      <x>300</x>
+      <y>370</y>
       <w>160</w>
       <h>30</h>
     </coordinates>
@@ -703,8 +1103,42 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>350</x>
-      <y>280</y>
+      <x>1030</x>
+      <y>690</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Sprite
+fg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1370</x>
+      <y>860</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Bonus</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>380</x>
+      <y>720</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>SoloModeScene</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>240</x>
+      <y>250</y>
       <w>190</w>
       <h>30</h>
     </coordinates>
@@ -715,77 +1149,8 @@ fg=gray</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>490</x>
-      <y>750</y>
-      <w>140</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>SoloModeScene</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>850</x>
-      <y>600</y>
-      <w>120</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>30;30;30;80;100;80</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>230</x>
-      <y>370</y>
-      <w>130</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>ModPlayer
-fg=gray</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>940</x>
-      <y>470</y>
-      <w>120</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Enumeration&gt;&gt;
-SceneType</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>600</x>
-      <y>600</y>
-      <w>120</w>
-      <h>180</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>100;30;100;160;30;160</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>510</x>
-      <y>310</y>
-      <w>270</w>
-      <h>180</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
-fg=gray</panel_attributes>
-    <additional_attributes>250;160;250;40;130;40;130;30;30;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>740</x>
-      <y>890</y>
+      <x>630</x>
+      <y>860</y>
       <w>130</w>
       <h>30</h>
     </coordinates>
@@ -793,25 +1158,15 @@ fg=gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>620</x>
-      <y>840</y>
-      <w>130</w>
-      <h>30</h>
+      <x>400</x>
+      <y>280</y>
+      <w>290</w>
+      <h>180</h>
     </coordinates>
-    <panel_attributes>MenuDescriptor</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>950</x>
-      <y>670</y>
-      <w>140</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>ArcadeGameScene</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+fg=gray</panel_attributes>
+    <additional_attributes>270;160;270;40;130;40;130;30;30;30</additional_attributes>
   </element>
 </diagram>
