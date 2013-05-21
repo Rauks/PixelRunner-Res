@@ -1,24 +1,10 @@
-Bonus
-
-Vitesse accélérée
-Vitesse ralentir
-Bonus 1 vie
-Saut plané
-
-
-
-
-Deplacements
-
-Plateformes, mortel si on se cogne, on passe a travers qui on avait une vie.
-Piques
-Missiles, esquivés par une roulade
-
-
-
-
 Decords
 
 Modèle d'arbre taille 50~
 Améliorer les colines mario
 Immeubles
+
+
+
+
+http://forum.hardware.fr/hfr/OverclockingCoolingModding/Modding/unique-bureaux-sujet_273630_227.htm
