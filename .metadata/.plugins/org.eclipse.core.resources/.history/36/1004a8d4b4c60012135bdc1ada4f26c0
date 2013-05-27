@@ -23,12 +23,12 @@ public class Main
 		Attribute s = new Attribute("s","1");
 		root.setAttribute(s);		
 
-		ObjectL oList1 = new ObjectL();
-		oList1.add("0", "0");
-		oList1.add("1", "1");
-		oList1.add("2", "3");
+		ObjectL oList = new ObjectL();
+		oList.add("0", "0");
+		oList.add("1", "1");
+		oList.add("2", "3");
 		Element e1 = new Element("e");
-		eList.add(putObjectIntoE(e1, oList1));
+		eList.add(putObjectIntoE(e1, oList));
 
 		eList.add(new Element("e"));
 
