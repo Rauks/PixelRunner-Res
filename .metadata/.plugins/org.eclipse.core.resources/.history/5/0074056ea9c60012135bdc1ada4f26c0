@@ -1,0 +1,12 @@
+package xmlLevelEncoder;
+
+import java.util.HashMap;
+
+public class ObjectL {
+
+	HashMap hm;
+	
+	public ObjectL(){
+		this.hm = new HashMap<>();
+	}
+}

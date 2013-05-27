@@ -1,0 +1,6 @@
+package xmlLevelEncoder;
+
+public class Pair {
+	String first;
+	String second;
+}

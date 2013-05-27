@@ -1,0 +1,25 @@
+package xmlLevelEncoder;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class ObjectL {
+
+	ArrayList<String[][]> al;
+	
+	public ObjectL(){
+		this.al = new ArrayList<>();
+	}
+	
+	public void add(String object, String layer){
+		this.al.put(object, layer);
+	}
+	
+	public HashMap<String, String> get(){
+		return this.al;
+	}
+	
+	public int size(){
+		return this.al.size();
+	}
+}
