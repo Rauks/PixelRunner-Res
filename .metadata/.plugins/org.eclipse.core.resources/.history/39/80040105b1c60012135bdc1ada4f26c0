@@ -16,24 +16,24 @@ public class Main
 	static Element root = new Element("lvl");
 	static Document document = new Document(root);
 	static ArrayList<Element> eList = new ArrayList<>();
-
+	
 	public static void main(String[] args)
 	{
 
 		Attribute s = new Attribute("s","1");
 		root.setAttribute(s);		
-
+		
 		ObjectL oList = new ObjectL();
 		oList.add("0", "0");
 		oList.add("1", "1");
 		oList.add("2", "3");
 		Element e1 = new Element("e");
 		eList.add(putObjectIntoE(e1, oList));
-
+		
 		eList.add(new Element("e"));
-
+		
 		putElementIntoRoot();
-
+		
 		try
 		{
 			XMLOutputter sortie = new XMLOutputter(Format.getPrettyFormat());

@@ -17,10 +17,8 @@ public class ObjectL {
 
 	public void add(String object, String layer){
 		if(al.size()<=MAX_OBJECT_BY_ELEMENT){
-			
 			int objectI = Integer.parseInt(object);
 			int layerI = Integer.parseInt(layer);
-			
 			if(objectI <= MAX_OBJECT || layerI <= MAX_LAYER){
 				if(objectI == 5){
 					if(layerI >= MIN_HEIGHT_PLATEFORM && layerI <= MAX_HEIGHT_PLATEFORM)

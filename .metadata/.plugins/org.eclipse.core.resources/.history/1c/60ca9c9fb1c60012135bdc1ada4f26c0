@@ -27,6 +27,7 @@ public class Main
 		oList.add("0", "0");
 		oList.add("1", "1");
 		oList.add("2", "3");
+		oList.add("6", "13");
 		Element e1 = new Element("e");
 		eList.add(putObjectIntoE(e1, oList));
 

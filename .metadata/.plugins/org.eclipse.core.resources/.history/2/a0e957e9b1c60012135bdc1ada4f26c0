@@ -1,0 +1,30 @@
+package xmlLevelEncoder;
+
+import java.util.ArrayList;
+
+public class ObjectL {
+
+	private ArrayList<Pair> al;
+
+	public ObjectL(){
+		this.al = new ArrayList<>();
+	}
+
+	public void add(String object, String layer){
+		int objectI = Integer.parseInt(object);
+		int layerI = Integer.parseInt(layer);
+		if(objectI <= 8 || layerI <= 13){
+			if(objectI == 5){
+				if(layerI >= 3 && layerI <= 10)
+					this.al.add(new Pair(object, layer));
+			}
+			else{
+				this.al.add(new Pair(object, layer));
+			}
+		}
+	}
+
+	public ArrayList<Pair> get(){
+		return this.al;
+	}
+}
