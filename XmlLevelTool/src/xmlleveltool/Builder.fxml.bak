@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="698.0" prefWidth="1046.0" xmlns:fx="http://javafx.com/fxml" fx:controller="xmlleveltool.BuilderController">
+  <children>
+    <SplitPane dividerPositions="0.4616858237547893" focusTraversable="true" prefHeight="160.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <items>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+          <children>
+            <ListView id="elementList" fx:id="elementsList" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+          </children>
+        </AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+          <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <children>
+                <ListView fx:id="buildingList" prefHeight="290.0" prefWidth="559.0" />
+                <Pane prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                  <children>
+                    <TextField fx:id="layerLevel" layoutX="101.0" layoutY="40.0" prefWidth="70.0" text="0" />
+                    <Label layoutX="39.0" layoutY="43.0" text="Layer level :" />
+                    <Button fx:id="addElement" layoutX="54.0" layoutY="116.0" mnemonicParsing="false" onAction="#addElement" text="AjouterElement" />
+                    <ComboBox fx:id="elementChoice" layoutX="39.0" layoutY="74.0" prefHeight="21.0" prefWidth="132.0">
+                      <items>
+                        <FXCollections fx:factory="observableArrayList">
+                          <String fx:value="Item 1" />
+                          <String fx:value="Item 2" />
+                          <String fx:value="Item 3" />
+                        </FXCollections>
+                      </items>
+                    </ComboBox>
+                    <Button fx:id="addObjectsList" layoutX="363.0" layoutY="75.0" mnemonicParsing="false" onAction="#addObjectsList" text="Ajouter ligne" />
+                    <Button fx:id="buildXML" layoutX="252.0" layoutY="326.0" mnemonicParsing="false" text="XML" />
+                  </children>
+                </Pane>
+              </children>
+            </VBox>
+          </children>
+        </AnchorPane>
+      </items>
+    </SplitPane>
+  </children>
+</AnchorPane>
