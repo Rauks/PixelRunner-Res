@@ -50,7 +50,7 @@ public class Main
 	}
 
 	private static Element putObjectIntoE(Element e1, ObjectL oList) {
-		for(Iterator<Pair> i = oList.get().iterator(); i.hasNext();){
+		for(Iterator i = oList.get().iterator(); i.hasNext();){
 			Pair pair = (Pair) i.next();
 			Element o = new Element("o");
 			o.setAttribute(new Attribute("t",pair.getFirst()));
