@@ -1,0 +1,19 @@
+Ont actuellement sur leur téléphone :
+
+
+Alpha 1.0
+
+	Simon
+	Georges
+	Nicolas	D.
+	Florent
+	Leonard (Tablette)	
+	Nicolas F.
+
+Alpha 2.0
+
+	Charles (Tablette)
+
+Alpha 3.0
+
+	Karl
