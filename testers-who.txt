@@ -1,6 +1,3 @@
-Ont actuellement sur leur téléphone :
-
-
 Alpha 1.0
 
 	Simon
@@ -16,4 +13,11 @@ Alpha 3.0
 
 	Nicolas	D.
 	Florent
-	Karl
+
+
+/*********************** NEED UNINSTALL FOR NEXT VERSION ******************************/
+
+
+Beta 0.1
+
+	Karl	
