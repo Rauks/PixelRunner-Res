@@ -17,9 +17,12 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.Label;
+import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import javafx.util.Callback;
 import org.jdom2.Attribute;
 import org.jdom2.Document;
 import org.jdom2.Element;
@@ -103,6 +106,20 @@ public class BuilderController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         this.elementsList.setItems(this.objetcsList);
         this.buildingList.setItems(this.buildList);
+        this.elementsList.setCellFactory(new Callback<ListView<ObjectsList>, ListCell<ObjectsList>>() {
+            @Override
+            public ListCell<ObjectsList> call(ListView<ObjectsList> p) {
+                ListCell<ObjectsList> cell = new ListCell<ObjectsList>(){
+                    @Override
+                    public void updateItem(ObjectsList item, boolean empty){
+                        if(!empty && item != null){
+                            setGraphic(new Label(String.valueOf(BuilderController.this.objetcsList.indexOf(item) + 1) + ". " + item.toString()));
+                        }
+                    }
+                };
+                return cell;
+            }
+        });
         
         ObservableList<LevelTypes> types = FXCollections.observableArrayList(LevelTypes.values());
         this.elementChoice.setItems(types);
