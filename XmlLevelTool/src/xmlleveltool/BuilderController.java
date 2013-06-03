@@ -69,6 +69,7 @@ public class BuilderController implements Initializable {
         ol.getList().addAll(this.buildList);
         this.buildList.clear();
         this.objetcsList.add(ol);
+        this.refreshObjectsListIndexes();
     }
     
     @FXML
@@ -99,6 +100,12 @@ public class BuilderController implements Initializable {
         }
     }
     
+    private void refreshObjectsListIndexes(){
+        for(ObjectsList o : this.objetcsList){
+            o.index = this.objetcsList.indexOf(o);
+        }
+    }
+    
     /**
      * Initializes the controller class.
      */
@@ -106,6 +113,7 @@ public class BuilderController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         this.elementsList.setItems(this.objetcsList);
         this.buildingList.setItems(this.buildList);
+        /*
         this.elementsList.setCellFactory(new Callback<ListView<ObjectsList>, ListCell<ObjectsList>>() {
             @Override
             public ListCell<ObjectsList> call(ListView<ObjectsList> p) {
@@ -120,6 +128,7 @@ public class BuilderController implements Initializable {
                 return cell;
             }
         });
+        */
         
         ObservableList<LevelTypes> types = FXCollections.observableArrayList(LevelTypes.values());
         this.elementChoice.setItems(types);
@@ -130,6 +139,7 @@ public class BuilderController implements Initializable {
                 if(t.isControlDown()){
                     if (elementsList.getSelectionModel().getSelectedItem() != null) {
                         BuilderController.this.objetcsList.remove(elementsList.getSelectionModel().getSelectedItem());
+                        BuilderController.this.refreshObjectsListIndexes();
                     }
                 }
             }

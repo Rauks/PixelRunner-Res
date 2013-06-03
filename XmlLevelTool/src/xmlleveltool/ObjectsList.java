@@ -14,6 +14,7 @@ import xmlleveltool.LevelElement.LevelTypes;
  */
 public class ObjectsList {
     private ArrayList<LevelElement> al;
+    public int index = 0;
 
     public ObjectsList(){
             this.al = new ArrayList<>();
@@ -26,6 +27,7 @@ public class ObjectsList {
     @Override
     public String toString(){
         StringBuilder sb = new StringBuilder();
+        sb.append(this.index).append(". ");
         for(Iterator<LevelElement> it = this.al.iterator(); it.hasNext();){
             sb.append(it.next().toString());
             if(it.hasNext()){
