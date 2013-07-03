@@ -17,10 +17,12 @@ public class LevelElement {
         LIFE(2, "BonusLife"),
         SLOW(3, "BonusSlow"),
         SPEED(4, "BonusSpeed"),
+        SWAP(9, "BonusSwap"),
         PLATFORM(5, "Platform"),
         ROCKET(6, "Rocket"),
         TRAP(7, "Trap"),
         WALL(8, "Wall");
+        
         
         private String name;
         private int id;
