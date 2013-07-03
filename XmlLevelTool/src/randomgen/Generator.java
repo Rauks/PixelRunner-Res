@@ -29,7 +29,7 @@ public class Generator {
     
     public static void main(String[] args){
         Generator gen = new Generator();
-        gen.generate(37);
+        gen.generate(28);
         gen.build(System.out);
     }
     
