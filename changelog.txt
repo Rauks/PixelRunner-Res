@@ -1,6 +1,0 @@
-v1.1
-
-- Boutons de saut/roulade (réactifs aux bonus)
-- Différenciations des niveaux réalisés (blancs) et non réalisés (gris)
-- Correction du déblocage du succès des tutoriels
-- Nouvelles musiques en arcade
